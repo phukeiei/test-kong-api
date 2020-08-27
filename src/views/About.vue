@@ -11,12 +11,6 @@
       <div></div>
       {{jsonAcl}}
     </div>
-    <!-- <div v-if="jsonRoute">
-      <hr />
-      <h1>Route</h1>
-      <div></div>
-      {{jsonRoute}}
-    </div>-->
   </div>
 </template>
 
@@ -42,16 +36,6 @@ export default {
           });
         });
       this.jsonAcl = res;
-      // let res2 = [];
-      // await axios
-      //   .get("http://localhost:8001/plugins/" + this.jsonAcl[0].id + "/route")
-      //   .then(function (response) {
-      //     response.data.data.map((response) => {
-      //       res2.push(response);
-      //       console.log(res2);
-      //     });
-      //   });
-      // this.jsonRoute = res2;
     },
   },
 };

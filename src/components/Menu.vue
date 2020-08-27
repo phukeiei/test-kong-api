@@ -19,6 +19,7 @@ export default {
     items: [
       { title: "/", name: "Consumer" },
       { title: "/about", name: "About" },
+      { title: "/auth", name: "Auth" },
     ],
   }),
   methods: {
